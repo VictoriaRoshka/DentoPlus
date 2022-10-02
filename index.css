@@ -131,3 +131,64 @@ button:hover{
 .headtext-container__button{
     padding-bottom: 50px;
 }
+.service-title{
+    color: var(--primary-color6);
+    width: 100%;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 50px 0px;
+}
+.service-area{
+    background-color: var(--primary-color5);
+    padding-top: 50px;
+    padding-bottom: 25px;
+    display: flex;
+}
+.service-content{
+    display: flex;
+    justify-content: center;
+}
+.service-container__items{
+    display: flex;
+    gap: 30px;
+    
+}
+.service-container__item{
+    display: flex;
+    flex-direction: column;
+    gap:70px;
+    width: calc(100% /3);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.service02{
+    background-image: url(dentoplus-images/service-3.png);
+}
+.service03{
+    background-image: url(dentoplus-images/service-2.png);
+}
+.service04{
+    background-image: url(dentoplus-images/service-1.png);
+}
+.service-container__item_number{
+    font-size: 22px;
+    color: var(--primary-color2);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2px 5px;
+    text-shadow:  1px 1px 1px #171717;
+}
+.service-container__item_name{
+    color:var(--primary-color2);
+    text-shadow: 1px 1px 1px   #171717;
+    margin-left: 5px;
+}
+.service-container_item__mini{
+    display: flex;
+    justify-content: space-between;
+}
+.arrow-icon{
+    margin-top: 45px;
+}
