@@ -21,6 +21,17 @@ html{
     .headtext-container{
         margin: 0;
     }
+    .service-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-container__items{
+        flex-direction: column;
+    }
+    .arrow-icon{
+        transform: rotate(90deg);
+    }
     
 
 
@@ -39,6 +50,17 @@ html{
     .head-image{
         background-position: center;
         background-size: cover;
+    }
+    .service-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-container__items{
+        flex-direction: column;
+    }
+    .arrow-icon{
+        transform: rotate(90deg);
     }
 
 }
@@ -146,7 +168,9 @@ button:hover{
 }
 .service-content{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 10px;
+
 }
 .service-container__items{
     display: flex;
@@ -157,7 +181,6 @@ button:hover{
     display: flex;
     flex-direction: column;
     gap:70px;
-    width: calc(100% /3);
     border-radius: 10px;
     background-size: cover;
     background-position: center;
@@ -188,6 +211,7 @@ button:hover{
 .service-container_item__mini{
     display: flex;
     justify-content: space-between;
+    
 }
 .arrow-icon{
     margin-top: 45px;
