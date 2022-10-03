@@ -32,6 +32,9 @@ html{
     .arrow-icon{
         transform: rotate(90deg);
     }
+    .about-clinic__container{
+        flex-wrap: wrap;
+    }
     
 
 
