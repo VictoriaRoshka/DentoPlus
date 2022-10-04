@@ -10,17 +10,19 @@ html{
     --primary-color5:#0284C7;
     --primary-color6:#0369a1;
     --primary-color7:#e5e5e5;
-    --primary-color:#a3a3a3;
+    --primary-color8:#a3a3a3;
+    --primary-color9:#075985;
+    --primary-color10:#0c4a6e;
     
 }
 @media(max-width:600px){
     .head-line__items{
         flex-direction: column;
     }
-    .head-image{
-        background-position: center;
-        background-size: cover;
+    .headtext-container__title{
+        font-size: 36px;
     }
+    
     .headtext-container{
         margin: 0;
     }
@@ -38,6 +40,14 @@ html{
     .about-clinic__container{
         flex-wrap: wrap;
     }
+    .content-feedback{
+        flex-direction: column;
+    }
+    .content-feedback__item{
+        flex-direction: column;
+        
+    }
+    
     
 
 
@@ -49,13 +59,6 @@ html{
     .head-line__navigation{
         justify-content: center;
         max-width: 100%;
-    }
-    .content{
-        max-width: 100%;
-    }
-    .head-image{
-        background-position: center;
-        background-size: cover;
     }
     .service-content{
         flex-direction: column;
@@ -71,9 +74,6 @@ html{
 
 }
 @media(max-width:1024px){
-    .content{
-        max-width: 100%;
-    }
     .head-image{
         background-position: center;
         background-size: cover;
@@ -120,6 +120,7 @@ html{
 }
 .headtext-container{
     width: calc(100%/2);
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -247,8 +248,11 @@ button:hover{
     display: flex;
     flex-wrap: wrap;
     gap:20px;
+    max-width: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
-.fedback-container__item{
+.content-feedback__item{
     display: flex;
     border: 1px solid var(--primary-color7);
     border-radius: 10px;
@@ -256,6 +260,7 @@ button:hover{
     padding: 15px;
     gap:20px;
     width: calc(100%/2 - var(--offset));
+    max-width: 100%;
     margin-top: 20px;
 }
 .feedback-box{
@@ -270,6 +275,57 @@ button:hover{
 
 }
 .feedback-box__text{
-    color: var(--primary-color);
+    color: var(--primary-color8);
     font-size: 12px;
 }
+.branch-container{
+    background-image: url(dentoplus-images/map-background.png);
+
+}
+.branch-container__background{
+    background-color: var(--primary-color2);
+    opacity:0.8;
+}
+.branch-container__title{
+    padding-top:50px;
+}
+.branch-container__items{
+    display:flex;
+    gap:20px;
+    padding-top:25px;
+    padding-bottom: 50px;
+}
+.branch-container_item{
+    display: flex;
+    flex-direction: column;
+    border:1px solid var(--primary-color5);
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(100%/3 - var(--offset));
+    background-color: white;
+    opacity: 1.5;
+    gap: 50px;
+    font-size: 14px;
+    color: var(--primary-color9);
+    font-weight: 500;
+}
+.branch-container__item-adress{
+    display:flex;
+    gap:25px;
+    align-items: center;
+}
+.branch-container__item-worktime{
+    display:flex;
+    gap:20px;
+
+}
+.item-worktime__title{
+    color: var(--primary-color10);
+    font-weight: 600;
+
+}
+.branch-container_item-contact{
+    color: var(--primary-color10);
+    font-weight: 600;
+}
+
