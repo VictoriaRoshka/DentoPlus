@@ -87,6 +87,9 @@ html{
     .branch-container__items{
         flex-direction: column;
     }
+    .footer__secondrow{
+        gap:30px;
+    }
 
 }
 @media(max-width:1024px){
