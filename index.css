@@ -52,7 +52,15 @@ html{
         align-items: center;
         max-width: 100%;
     }
-    
+    .footer__firsrow{
+        flex-wrap: wrap;
+        max-width: 100%;
+        gap:10px;
+    }
+    .footer__secondrow{
+        flex-direction: column;
+        gap:30px;
+    }
     
 
 
