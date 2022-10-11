@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     --offset: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 html{
     --primary-color1: #0ea5e9;
@@ -15,99 +16,14 @@ html{
     --primary-color10:#0c4a6e;
     
 }
-@media(max-width:600px){
-    .head-line__items{
-        flex-direction: column;
-    }
-    .headtext-container__title{
-        font-size: 36px;
-    }
-    
-    .headtext-container{
-        margin: 0;
-    }
-    .service-content{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .service-container__items{
-        flex-direction: column;
-    }
-    .arrow-icon{
-        transform: rotate(90deg);
-    }
-    .about-clinic__container{
-        flex-wrap: wrap;
-    }
-    .content-feedback{
-        flex-direction: column;
-    }
-    .content-feedback__item{
-        flex-direction: column;
-        
-    }
-    .branch-container__items{
-        flex-direction: column;
-        align-items: center;
-        max-width: 100%;
-    }
-    .footer__firsrow{
-        flex-wrap: wrap;
-        max-width: 100%;
-        gap:10px;
-    }
-    .footer__secondrow{
-        flex-direction: column;
-        gap:30px;
-    }
-    
-
-
-}
-@media(max-width:768px){
-    .head-line__items{
-        flex-direction: column;
-    }
-    .head-line__navigation{
-        justify-content: center;
-        max-width: 100%;
-    }
-    .service-content{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .service-container__items{
-        flex-direction: column;
-    }
-    .arrow-icon{
-        transform: rotate(90deg);
-    }
-    .branch-container__items{
-        flex-direction: column;
-    }
-    .footer__secondrow{
-        gap:30px;
-    }
-
-}
-@media(max-width:1024px){
-    .head-image{
-        background-position: center;
-        background-size: cover;
-    }
-}
 .content{
     max-width: 1024px;
     margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
+    
 }
 .head-line{
     background-color: var(--primary-color5);
     padding: 10px 0px;
-    
-
 }
 .head-line__items{
     display: flex;
@@ -211,6 +127,8 @@ button:hover{
     border-radius: 10px;
     background-size: cover;
     background-position: center;
+    flex-grow: 1;
+    flex-basis: 0;
     
     
 }
@@ -301,11 +219,11 @@ button:hover{
 }
 .branch-container{
     background-image: url(dentoplus-images/map-background.png);
+    position: relative;
 
 }
 .branch-container__background{
-    background-color: var(--primary-color2);
-    opacity:0.8;
+    background-color: rgba(255, 255, 255, 0.475);
 }
 .branch-container__title{
     padding-top:50px;
@@ -316,7 +234,7 @@ button:hover{
     padding-top:25px;
     padding-bottom: 50px;
 }
-.branch-container_item{
+.branch-container__item{
     display: flex;
     flex-direction: column;
     border:1px solid var(--primary-color5);
@@ -388,4 +306,100 @@ footer{
 }
 .footer__thirdrow_politic{
     border-left: 3px solid var(--primary-color6);
+}
+
+@media(max-width:1024px){
+    .head-image{
+        background-position: center;
+        background-size: cover;
+    }
+}
+@media(max-width:768px){
+    .head-line__items{
+        flex-direction: column;
+    }
+    .head-line__navigation{
+        justify-content: center;
+        max-width: 100%;
+    }
+    .headtext-container{
+        align-items: center;
+        justify-content: center;
+    }
+    .service-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-container__items{
+        flex-direction: column;
+    }
+    .arrow-icon{
+        transform: rotate(90deg);
+    }
+    .branch-container__item{
+        width: calc(100%/3);
+        margin: 0 10px;
+    }
+    .footer__secondrow{
+        gap:30px;
+    }
+
+}
+@media(max-width:600px){
+    .head-line__items{
+        flex-direction: column;
+    }
+    .headtext-container__title{
+        font-size: 36px;
+    }
+    
+    .headtext-container{
+        margin: 0;
+    }
+    .service-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-container__items{
+        flex-direction: column;
+    }
+    .arrow-icon{
+        transform: rotate(90deg);
+    }
+    .about-clinic__container{
+        flex-wrap: wrap;
+    }
+    .content-feedback{
+        flex-direction: column;
+    }
+    .content-feedback__item{
+        flex-direction: column;
+        width: calc(100% - var(--offset));
+        align-items: center;
+        
+    }
+    .branch-container__items{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .branch-container__item{
+        width: calc(100% - var(--offset));
+    }
+    
+    
+    .footer__firsrow{
+        flex-wrap: wrap;
+        max-width: 100%;
+        gap:10px;
+    }
+    .footer__secondrow{
+        flex-direction: column;
+        gap:30px;
+    }
+    
+
+
 }
