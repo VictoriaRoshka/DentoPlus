@@ -1,7 +1,7 @@
 *{
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     --offset: 20px;
-    font-family: 'Open Sans', sans-serif;
 }
 html{
     --primary-color1: #0ea5e9;
@@ -111,7 +111,6 @@ button:hover{
 }
 .service-content{
     display: flex;
-    justify-content: space-between;
     gap: 10px;
 
 }
@@ -219,11 +218,12 @@ button:hover{
 }
 .branch-container{
     background-image: url(dentoplus-images/map-background.png);
-    position: relative;
+    background-color: rgba(255, 255, 255, 0.475);
+    background-blend-mode: overlay;
 
 }
 .branch-container__background{
-    background-color: rgba(255, 255, 255, 0.475);
+    
 }
 .branch-container__title{
     padding-top:50px;
