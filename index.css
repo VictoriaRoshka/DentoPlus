@@ -329,15 +329,8 @@ footer{
         justify-content: center;
     }
     .service-content{
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    .service-container__items{
-        flex-direction: column;
-    }
-    .arrow-icon{
-        transform: rotate(90deg);
     }
     .branch-container__item{
         width: calc(100%/3);
@@ -401,7 +394,4 @@ footer{
         flex-direction: column;
         gap:30px;
     }
-    
-
-
 }

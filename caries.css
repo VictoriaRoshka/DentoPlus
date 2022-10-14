@@ -142,7 +142,6 @@ button:hover{
     border-radius: 30px;
     padding: 10px 40px;
     margin: 5px 40px;
-    height: 60px;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -263,4 +262,93 @@ footer{
 }
 .footer__thirdrow_politic{
     border-left: 3px solid var(--primary-color6);
+}
+@media(max-width:1024px){
+    .head-image{
+        background-position: center;
+        background-size: cover;
+    }
+    .content{
+        margin:0 10px;
+    }
+    .price-container__item{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:768px){
+    .head-line__items{
+        flex-direction: column;
+    }
+    .head-line__navigation{
+        justify-content: center;
+        max-width: 100%;
+    }
+    .headtext-container{
+        justify-content: center;
+    }
+    .caries-container{
+        margin-bottom: 100px;
+    }
+    .caries-container__text{
+        width: calc(100%/2);
+    }
+    .caries-container__image{
+        width: calc(100%/2);
+    }
+    .service-content{
+        justify-content: center;
+        align-items: center;
+    }
+    .price-container__item{
+        flex-wrap: wrap;
+        height: 100px;
+    }
+    .footer__secondrow{
+        gap:30px;
+    }
+
+}
+@media(max-width:600px){
+    .head-line__items{
+        flex-direction: column;
+    }
+    .headtext-container__title{
+        font-size: 36px;
+    }
+    .caries-container__image{
+        display: none;
+    }
+    .caries-container__text{
+        width: 100%;
+    }
+    .service-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .service-container__items{
+        height: 200px;
+        flex-direction: column;
+        overflow: scroll;
+    }
+    .service-area{
+        margin-bottom: 50px;
+    }
+    .arrow-icon{
+        display: none;
+    }
+    .price-container__item{
+        flex-wrap: wrap;
+        height: 150px;
+    }
+    .footer__firsrow{
+        flex-wrap: wrap;
+        max-width: 100%;
+        gap:10px;
+    }
+    .footer__secondrow{
+        flex-direction: column;
+        gap:30px;
+    }
 }
