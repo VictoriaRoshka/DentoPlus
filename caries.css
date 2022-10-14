@@ -273,6 +273,7 @@ footer{
     }
     .price-container__item{
         flex-wrap: wrap;
+        height: 70px;
     }
 }
 @media(max-width:768px){
