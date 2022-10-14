@@ -223,3 +223,44 @@ button:hover{
 .arrow-icon{
     margin-top: 45px;
 }
+footer{
+    background-color: #F0F9FF;
+    color:var(--primary-color9);
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+    gap: 20px;
+}
+.footer__firsrow{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__firstrow_social{
+    display:flex;
+    align-items: center;
+    font-weight: 600;
+    gap: 5px;
+
+}
+.footer__secondrow{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+.footer__secondrow_title{
+    display: flex;
+    font-weight: 600;
+    gap: 5px;
+}
+.footer__thirdrow{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+}
+.footer__thirdrow_politic{
+    border-left: 3px solid var(--primary-color6);
+}
