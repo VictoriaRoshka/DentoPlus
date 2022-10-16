@@ -66,7 +66,7 @@ html{
 
 }
 .headtext-container__title{
-    font-size: 48px;
+    font-size: 56px;
     font-weight: 600;
     color: var(--primary-color3);
     max-width: 100%;
@@ -103,11 +103,11 @@ button:hover{
     color: var(--primary-color6);
     width: 100%;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 40px;
     margin: 50px 0px;
 }
 .caries-title{
-    font-size: 30px;
+    font-size: 48px;
 }
 .caries-content{
     padding-top: 50px;
@@ -121,7 +121,7 @@ button:hover{
     display:flex;
     flex-direction: column;
     align-items:center;
-    font-size: 20px;
+    font-size: 24px;
     color: var(--primary-color6);
     gap:30px;
 
@@ -203,7 +203,7 @@ button:hover{
     background-image: url(dentoplus-images/service-1.png);
 }
 .service-container__item_number{
-    font-size: 22px;
+    font-size: 18px;
     color: var(--primary-color2);
     font-family: 'Times New Roman', Times, serif;
     margin: 2px 5px;
@@ -287,6 +287,9 @@ footer{
     .headtext-container{
         justify-content: center;
     }
+    .title{
+        font-size: 36px;
+    }
     .caries-container{
         margin-bottom: 100px;
     }
@@ -315,6 +318,9 @@ footer{
     }
     .headtext-container__title{
         font-size: 36px;
+    }
+    .title{
+        font-size: 32px;
     }
     .caries-container__image{
         display: none;
