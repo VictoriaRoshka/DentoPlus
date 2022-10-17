@@ -229,7 +229,7 @@ button:hover{
 }
 .branch-container{
     background-image: url(dentoplus-images/map-background.png);
-    background-color: rgba(255, 255, 255, 0.475);
+    background-color: rgba(255, 255, 255, 0.789);
     background-blend-mode: overlay;
 
 }
