@@ -19,6 +19,7 @@ html{
 .content{
     max-width: 1024px;
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
     
 }
 .head-line{
@@ -35,18 +36,25 @@ html{
 }
 .head-line__navigation_item{
     color: var(--primary-color2);
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 22px;
 }
 .head-line__navigation_item:hover{
     color:var(--primary-color4);
     cursor: pointer;
 }
 .dentoplus{
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 26px;
+    font-weight: 700;
     color:var(--primary-color2);
 
+}
+.link{
+    color: var(--primary-color2);
+    text-decoration: none;
+}
+.link:hover{
+    color: var(--primary-color8);
 }
 .head-image{
     background-image: url(dentoplus-images/hero.png);
