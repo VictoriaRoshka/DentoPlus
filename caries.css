@@ -324,8 +324,18 @@ footer{
 
 }
 @media(max-width:600px){
+    .content{
+        margin: 0 20px;
+    }
     .head-line__items{
         flex-direction: column;
+        gap: 10px;
+    }
+    .head-line__navigation{
+        gap:10px;
+    }
+    .head-line__navigation_item{
+        font-size: 16px;
     }
     .headtext-container__title{
         font-size: 36px;
@@ -338,6 +348,7 @@ footer{
     }
     .caries-container__text{
         width: 100%;
+        font-size: 18px;
     }
     .service-content{
         flex-direction: column;

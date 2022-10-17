@@ -56,6 +56,9 @@ html{
 .link:hover{
     color: var(--primary-color8);
 }
+.link:visited{
+    color: var(--primary-color4);
+}
 .head-image{
     background-image: url(dentoplus-images/hero.png);
     background-size: cover;
@@ -323,10 +326,17 @@ footer{
         background-position: center;
         background-size: cover;
     }
+    .content{
+        margin: 0 20px;
+    }
 }
 @media(max-width:768px){
+    .content{
+        margin: 0 20px;
+    }
     .head-line__items{
         flex-direction: column;
+        gap: 10px;
     }
     .head-line__navigation{
         justify-content: center;
@@ -350,8 +360,18 @@ footer{
 
 }
 @media(max-width:600px){
+    .content{
+        margin: 0 20px;
+    }
     .head-line__items{
         flex-direction: column;
+        gap: 10px;
+    }
+    .head-line__navigation{
+        gap:10px;
+    }
+    .head-line__navigation_item{
+        font-size: 16px;
     }
     .headtext-container__title{
         font-size: 36px;
@@ -364,12 +384,18 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 50px;
     }
     .service-container__items{
+        height: 200px;
         flex-direction: column;
+        overflow: scroll;
+    }
+    .service-area{
+        margin-bottom: 50px;
     }
     .arrow-icon{
-        transform: rotate(90deg);
+        display: none;
     }
     .about-clinic__container{
         flex-wrap: wrap;

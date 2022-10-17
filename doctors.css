@@ -19,6 +19,7 @@ html{
 .content{
     max-width: 1024px;
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
     
 }
 .head-line{
@@ -204,9 +205,34 @@ footer{
     .text-container__search{
         width: 100%;
     }
+    .text-container__text{
+        font-size: 20px;
+    }
 }
 @media (max-width:600px){
     .doctors-container__item{
         width: 100%;
+    }
+    .content{
+        margin: 0 20px;
+    }
+    .head-line__items{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .head-line__navigation{
+        gap:10px;
+    }
+    .head-line__navigation_item{
+        font-size: 16px;
+    }
+    .headtext-container__title{
+        font-size: 36px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .text-container__text{
+        font-size: 20px;
     }
 }
