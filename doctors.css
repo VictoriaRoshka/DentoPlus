@@ -98,8 +98,8 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    margin: 10px;
+    gap: 20px;
+    margin: 20px 0px;
 }
 .doctors-container__item_imagebox{
     border-radius: 10px;
@@ -130,6 +130,12 @@ doctors-container__item_image{
     font-size: 18px;
     font-weight: 700;
 
+}
+.doctors-container__item_button:hover{
+    color: var(--primary-color2);
+    background-color: var(--primary-color6);
+    cursor: pointer;
+    transition: all 1s;
 }
 footer{
     background-color: #F0F9FF;
@@ -172,4 +178,25 @@ footer{
 }
 .footer__thirdrow_politic{
     border-left: 3px solid var(--primary-color6);
+}
+@media (max-width:1024px){
+    .content{
+        margin: 0 20px;
+    }
+}
+@media (max-width:768px){
+    .content{
+        margin: 0 20px;
+    }
+    .doctors-container__item{
+        width: calc(100%/2 - var(--offset));
+    }
+    .text-container__search{
+        width: 100%;
+    }
+}
+@media (max-width:600px){
+    .doctors-container__item{
+        width: 100%;
+    }
 }
