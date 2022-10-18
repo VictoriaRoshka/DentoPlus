@@ -342,7 +342,7 @@ footer{
         font-size: 16px;
     }
     .headtext-container__title{
-        font-size: 36px;
+        font-size: 32px;
     }
     .title{
         font-size: 32px;
@@ -358,7 +358,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 50px;
+        margin:auto;
     }
     .service-container__items{
         height: 200px;
@@ -371,9 +371,14 @@ footer{
     .arrow-icon{
         display: none;
     }
+    .title{
+        font-size: 30px;
+    }
     .price-container__item{
         flex-wrap: wrap;
-        height: 150px;
+        height: 100%;
+        width: 100%;
+        margin: auto;
     }
     .footer__firsrow{
         flex-wrap: wrap;

@@ -377,7 +377,10 @@ footer{
         font-size: 16px;
     }
     .headtext-container__title{
-        font-size: 36px;
+        font-size: 32px;
+    }
+    .headtext-container__button{
+        margin: auto;
     }
     
     .headtext-container{
@@ -387,7 +390,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 50px;
+        margin:auto;
     }
     .service-container__items{
         height: 200px;
