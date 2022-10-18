@@ -124,6 +124,7 @@ html{
     border-radius: 10px;
     width: 100%;
     object-fit: cover;
+    vertical-align: bottom;
 
 }
 .doctors-container__item_name{
