@@ -215,6 +215,9 @@ footer{
     .text-container__text{
         font-size: 20px;
     }
+    .doctors-container{
+        margin-bottom: 100px;
+    }
 }
 @media (max-width:600px){
     .doctors-container__item{
