@@ -25,6 +25,9 @@ html{
 .head-line{
     background-color: var(--primary-color5);
     padding: 10px 0px;
+    position: fixed;
+    right: 0;
+    left: 0;
 }
 .head-line__items{
     display: flex;
@@ -57,7 +60,7 @@ html{
     color: var(--primary-color8);
 }
 .link:visited{
-    color: var(--primary-color4);
+    color: var(--primary-color10);
 }
 .head-image{
     background-image: url(dentoplus-images/hero.png);
