@@ -61,9 +61,6 @@ html{
 .link:hover{
     color: var(--primary-color8);
 }
-.link:visited{
-    color: var(--primary-color10);
-}
 
 .head-image{
     background-image: url(dentoplus-images/hero.png);
@@ -277,6 +274,7 @@ footer{
 }
 .footer__thirdrow_politic{
     border-left: 3px solid var(--primary-color6);
+    padding-left: 10px;
 }
 @media(max-width:1024px){
     .head-image{
