@@ -248,4 +248,8 @@ footer{
     .doctors-container{
         margin-bottom: 100px;
     }
+    .footer__secondrow{
+        flex-direction: column;
+        gap: 30px;
+    }
 }
