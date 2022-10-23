@@ -252,4 +252,8 @@ footer{
         flex-direction: column;
         gap: 30px;
     }
+    .footer__firsrow{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 }
