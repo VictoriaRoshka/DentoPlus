@@ -137,6 +137,7 @@ button:hover{
     border-radius: 10px;
     background-size: cover;
     background-position: center;
+    background-image: linear-gradient(to right 50% var(--primary-color6));
     flex-grow: 1;
     flex-basis: 0;
     
