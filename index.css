@@ -135,22 +135,28 @@ button:hover{
     flex-direction: column;
     gap:70px;
     border-radius: 10px;
-    background-size: cover;
-    background-position: center;
-    background-image: linear-gradient(to right 50% var(--primary-color6));
     flex-grow: 1;
     flex-basis: 0;
+    box-shadow: 2px 2px 10px var(--primary-color4);
+    
     
     
 }
 .service02{
-    background-image: url(dentoplus-images/service-3.png);
+    background-image: linear-gradient(to right, var(--primary-color6) 10%, transparent 60%), url(dentoplus-images/service-3.png);
+    background-size: cover;
+    background-position: center;
 }
 .service03{
-    background-image: url(dentoplus-images/service-2.png);
+    background-image: linear-gradient(to right, var(--primary-color6) 10%, transparent 60%), url(dentoplus-images/service-2.png);
+    background-size: cover;
+    background-position: center;
 }
 .service04{
-    background-image: url(dentoplus-images/service-1.png);
+    background-image: linear-gradient(to right, var(--primary-color6) 10%, transparent 60%), url(dentoplus-images/service-1.png);
+    background-size: cover;
+    background-position: center;
+   
 }
 .service-container__item_number{
     font-size: 22px;
@@ -233,9 +239,6 @@ button:hover{
     background-color: rgba(255, 255, 255, 0.789);
     background-blend-mode: overlay;
 
-}
-.branch-container__background{
-    
 }
 .branch-container__title{
     padding-top:50px;
@@ -436,4 +439,12 @@ footer{
         gap:30px;
     }
     
+}
+@media(max-width:320px){
+    .headtext-container__title{
+        font-size: 22px;
+    }
+    .head-line__navigation_item{
+        font-size: 12px;
+    }
 }
