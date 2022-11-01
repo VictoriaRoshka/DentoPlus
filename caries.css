@@ -39,6 +39,10 @@ html{
     display:flex;
     gap: 30px;
 }
+.head-line__navigation_mobile{
+    display: none;
+}
+
 .head-line__navigation_item{
     color: var(--primary-color2);
     font-weight: 600;
@@ -53,6 +57,12 @@ html{
     font-weight: 700;
     color:var(--primary-color2);
 
+}
+.dentoplus-menu__icon{
+    display: none;
+}
+.dentoplus-menu__closeicon{
+    display: none;
 }
 .link{
     color: var(--primary-color2);
@@ -91,6 +101,13 @@ html{
     font-size: 16px;
     box-sizing: border-box;
     max-width: 100%;
+}
+.dentoplus-menu__button{
+    outline: none;
+    border:none;
+    border-radius: 0%;
+    background-color: var(--primary-color5);
+    box-shadow: none;
 }
 button{
     background-color: #0ea5e9;
@@ -335,11 +352,30 @@ footer{
         margin: 0 20px;
     }
     .head-line__items{
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
         gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .head-line__navigation_item{
+        font-size: 20px;
+        border: 1px solid var(--primary-color7);
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        padding: 5px 0px;
     }
     .head-line__navigation{
-        gap:10px;
+        display: none;
+    }
+    .head-line__navigation_mobile{
+        gap:30px;
+        display: none;
+        flex-direction: column;
+    }
+    .dentoplus-menu__icon{
+        display: flex;
     }
     .head-line__navigation_item{
         font-size: 14px;
