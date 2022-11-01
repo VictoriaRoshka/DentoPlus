@@ -52,6 +52,12 @@ html{
     color:var(--primary-color2);
 
 }
+.dentoplus-menu__icon{
+    display: none;
+}
+.dentoplus-menu__closeicon{
+    display: none;
+}
 .link{
     color: var(--primary-color2);
     text-decoration: none;
