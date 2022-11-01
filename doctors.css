@@ -266,7 +266,6 @@ footer{
     .head-line__navigation_mobile{
         gap:30px;
         display: none;
-        display: flex;
         flex-direction: column;
     }
     .dentoplus-menu__icon{
