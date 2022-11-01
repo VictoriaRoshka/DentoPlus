@@ -352,19 +352,10 @@ footer{
         margin: 0 20px;
     }
     .head-line__items{
-        display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 20px;
         justify-content: space-between;
         align-items: center;
-    }
-    .head-line__navigation_item{
-        font-size: 20px;
-        border: 1px solid var(--primary-color7);
-        border-radius: 5px;
-        display: flex;
-        justify-content: center;
-        padding: 5px 0px;
     }
     .head-line__navigation{
         display: none;
@@ -373,6 +364,14 @@ footer{
         gap:30px;
         display: none;
         flex-direction: column;
+    }
+    .head-line__navigation_item{
+        font-size: 20px;
+        border: 1px solid var(--primary-color7);
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        padding: 5px 0px;
     }
     .dentoplus-menu__icon{
         display: flex;
